@@ -24,6 +24,7 @@ a {
 img {
   /* 画像が親要素よりも大きくなることを防ぐ */
   max-width: 100%;
+  max-height: 100%;
 }
 
 .wrapper {
@@ -41,7 +42,7 @@ img {
 /* 大きな背景画像 */
 .big-bg {
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
 }
 
 /* 文字の太さ */
@@ -85,7 +86,7 @@ img {
 .home-content {
   color: #ffffff;
   text-align: center;
-  padding-top: 254px;
+  padding: 200px;
 }
 
 .home-content h1 {
@@ -160,7 +161,7 @@ main .wrapper {
 }
 
 .contact-button {
-  margin-top: 40px;
+  margin: 40px 0;
   background-color: #83032a;
   padding: 10px 20px;
   color: #ffffff;

@@ -1,0 +1,45 @@
+@media screen and (max-width: 600px) {
+  .home-content {
+    padding: 100px 100px;
+  }
+  .page-nav li a {
+    font-size: 0.5rem;
+  }
+
+  .page-articles {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .page-articles article {
+    width: 100%;
+    margin-bottom: 30px;
+    height: 450px;
+  }
+
+  .page-articles article img {
+    width: 100vh;
+  }
+
+  .article-heading {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .page-header img {
+    width: 100px;
+  }
+
+  .home-content {
+    padding: 90px 50px;
+  }
+
+  .page-nav li {
+    margin-left: 5px;
+  }
+
+  .more-article-button {
+    width: 200px;
+  }
+}
